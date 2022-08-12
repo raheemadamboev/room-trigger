@@ -1,4 +1,4 @@
-package xyz.teamgravity.roomtrigger.ui.theme
+package xyz.teamgravity.roomtrigger.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
