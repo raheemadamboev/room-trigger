@@ -4,6 +4,7 @@
     package="xyz.teamgravity.roomtrigger">
 
     <application
+        android:name=".injection.app.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomTrigger"
         tools:targetApi="31">
+
         <activity
             android:name=".presentation.activity.Main"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.RoomTrigger">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
